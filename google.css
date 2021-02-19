@@ -1,0 +1,90 @@
+#logo {
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+    padding-top: 200px;
+
+}
+
+#searchbox {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    border-color: gray;
+    width: 500px;
+    height: 35px;
+    border-width: thin;
+    outline: none;
+
+}
+
+#search {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.searchbuttons {
+
+    height: 40px;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: none;
+    color: rgba(92, 91, 91, 0.959);
+    border-radius: 5px;
+
+}
+
+.searchbuttons:hover {
+    color: black;
+    border-color: rgba(128, 128, 128, 0.438);
+    
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+    border-top: 1px solid rgba(207, 207, 207, 0.808);
+    
+    
+
+    
+    
+    
+}
+
+.footerleft {
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+    
+    
+}
+
+.footerright {
+    float: right;
+    margin-top: 12px;
+    margin-right: 20px;
+    
+}
+.footerlinks {
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    padding:10px;
+    font-family: arial,sans-serif;
+    
+}
+
+.footerlinks:hover {
+    text-decoration: underline;
+}
