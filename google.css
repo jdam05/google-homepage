@@ -5,11 +5,12 @@
   padding-top: 200px;
 }
 
-#searchbox {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+#inputcontainer {
   margin-top: 40px;
+  text-align: center;
+}
+
+#searchbox {
   border-radius: 50px;
   border-color: rgb(158, 157, 157);
   border-style: solid;
@@ -19,8 +20,15 @@
   outline: none;
 }
 
+#inputcontainer i {
+  padding-top: 5px;
+  padding-left: 5px;
+  color: rgb(102, 102, 102);
+  position: absolute;
+}
+
 @media (max-width: 800px) {
-  #searchbox {
+  #inputcontainer #searchbox {
     width: 100%;
   }
 }
@@ -40,6 +48,7 @@
   box-shadow: none;
   color: rgba(92, 91, 91, 0.959);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .searchbuttons:hover {
@@ -90,11 +99,38 @@ header {
 .headerlinks {
   color: #222;
   text-decoration: none;
-  padding: 10px;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.headerright {
+  display: flex;
 }
 
+.headerleft {
+  padding-top: 11px;
+}
 .headerlinks:hover {
   text-decoration: underline;
+}
+
+#signinbutton {
+  background-color: #4285f4;
+  border: solid rgb(66, 133, 244);
+  border-radius: 2px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.appsicon {
+  padding-top: 6px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: rgb(92, 92, 92);
 }

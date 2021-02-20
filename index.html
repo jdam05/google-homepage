@@ -21,13 +21,21 @@
       <div class="headerright">
         <a href="" class="headerlinks">Gmail</a>
         <a href="" class="headerlinks">images</a>
-        <i class="material-icons">apps</i>
+        <div class="appsicon">
+          <i class="material-icons">apps</i>
+        </div>
+        <button id="signinbutton" type="button">Sign in</button>
       </div>
     </header>
 
     <img id="logo" src="media/googlelogo.png" alt="Google Homepage Logo" />
-    <label for="searchbox"></label>
-    <input type="seach" id="searchbox" name="q" />
+
+    <div id="inputcontainer">
+      <label for="searchbox"></label>
+      <i class="material-icons">search</i>
+      <input type="search" id="searchbox" name="q" />
+    </div>
+
     <div id="search">
       <button class="searchbuttons" type="submit">Google search</button>
       <button class="searchbuttons" type="submit">I'm Feeling Lucky</button>
