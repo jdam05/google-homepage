@@ -1,13 +1,61 @@
+header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerlinks {
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.headerright {
+  display: flex;
+}
+
+.headerleft {
+  padding-top: 11px;
+}
+.headerlinks:hover {
+  text-decoration: underline;
+}
+
+#signinbutton {
+  background-color: #4285f4;
+  border: solid rgb(66, 133, 244);
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.appsicon {
+  padding-top: 6px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: rgb(92, 92, 92);
+}
+
 #logo {
-  display: block;
   margin-right: auto;
   margin-left: auto;
+  height: 92px;
+  width: 272px;
   padding-top: 200px;
 }
 
 #inputcontainer {
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  height: 35px;
   margin-top: 40px;
-  text-align: center;
 }
 
 #searchbox {
@@ -18,6 +66,14 @@
   width: 500px;
   height: 35px;
   outline: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchinput {
+  border: none;
+  outline: none;
+  width: 400px;
 }
 
 #searchbox:hover {
@@ -25,25 +81,35 @@
   border: none;
 }
 
+#inputcontainer #voiceicon {
+  height: 20px;
+  padding-top: 7px;
+  padding-right: 15px;
+}
+
 #inputcontainer i {
-  padding-top: 5px;
-  padding-left: 5px;
   color: rgb(134, 134, 134);
-  position: absolute;
+  padding-left: 12px;
+  padding-top: 7px;
 }
 
 @media (max-width: 800px) {
-  #inputcontainer #searchbox {
+  #inputcontainer #searchbox #logo {
     width: 100%;
   }
 }
 
 #search {
-  text-align: center;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
   padding-top: 30px;
 }
 
 .searchbuttons {
+  white-space: nowrap;
   height: 40px;
   margin-left: 10px;
   background-color: #f2f2f2;
@@ -94,48 +160,4 @@ footer {
 
 .footerlinks:hover {
   text-decoration: underline;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.headerlinks {
-  color: #222;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-.headerright {
-  display: flex;
-}
-
-.headerleft {
-  padding-top: 11px;
-}
-.headerlinks:hover {
-  text-decoration: underline;
-}
-
-#signinbutton {
-  background-color: #4285f4;
-  border: solid rgb(66, 133, 244);
-  border-radius: 2px;
-
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  outline: none;
-  font-family: Arial, Helvetica, sans-serif;
-  cursor: pointer;
-}
-
-.appsicon {
-  padding-top: 6px;
-  padding-right: 10px;
-  cursor: pointer;
-  color: rgb(92, 92, 92);
 }
