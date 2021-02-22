@@ -50,6 +50,7 @@ header {
 }
 
 #inputcontainer {
+  display: block;
   margin-right: auto;
   margin-left: auto;
   width: 500px;
@@ -62,7 +63,7 @@ header {
   border-color: rgb(182, 182, 182);
   border-style: solid;
   border-width: thin;
-  width: 500px;
+  width: 100%;
   height: 35px;
   outline: none;
   display: flex;
@@ -93,7 +94,7 @@ header {
 }
 
 @media (max-width: 800px) {
-  #inputcontainer #searchbox #logo {
+  #inputcontainer {
     width: 100%;
   }
 }
